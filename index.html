@@ -10,7 +10,11 @@
 			rel="stylesheet"
 		/>
 
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 		<link rel="stylesheet" href="style.css" />
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<title>Nebojša Zeković Resume</title>
 	</head>
 	<body>
@@ -22,7 +26,7 @@
 			>
 		</nav>
 
-		<header>
+		<header data-aos="fade-up">
 			<div class="header-title">
 				<h4>Hi, there! I'm so exsicited that you visit my site</h4>
 				<h1>I am Nebojsa Zeković</h1>
@@ -34,7 +38,7 @@
 			</div>
 		</header>
 
-		<section class="skills">
+		<section class="skills" data-aos="fade-right">
 			<div class="work-heading">
 				<p class="work-number">00</p>
 				<h1 class="work-title">Skills</h1>
@@ -123,7 +127,7 @@
 		</section>
 
 		<!-- Work -->
-		<div class="work">
+		<div class="work" data-aos="fade-left">
 			<div class="work-heading">
 				<p class="work-number">01</p>
 				<h1 class="work-title">Experience</h1>
@@ -199,7 +203,7 @@
 		<!-- End of work -->
 
 		<!-- About -->
-		<section class="about">
+		<section class="about" data-aos="flip-left" data-aos-duration="500">
 			<div class="work-heading">
 				<p class="work-number">02</p>
 				<h1 class="work-title">About me</h1>
@@ -237,7 +241,11 @@
 				</div>
 			</div>
 
-			<section class="education-languages">
+			<section
+				class="education-languages"
+				data-aos="zoom-in-down"
+				data-aos-duration="3000"
+			>
 				<div class="work-heading">
 					<p class="work-number">04</p>
 					<h1 class="work-title">Education&Languages</h1>
@@ -269,7 +277,7 @@
 			</section>
 
 			<!-- Personal skills and hobies -->
-			<div class="hobies">
+			<div class="hobies" data-aos="fade-right" data-aos-duration="1000">
 				<div class="work-heading">
 					<p class="work-number">03</p>
 					<h1 class="work-title">Hobies&Interests</h1>
@@ -324,5 +332,10 @@
 			</div>
 		</section>
 		<footer>created by Nebojša Zeković @2021.</footer>
+		<script>
+			AOS.init();
+		</script>
+
+		<script src="./app.js"></script>
 	</body>
 </html>
