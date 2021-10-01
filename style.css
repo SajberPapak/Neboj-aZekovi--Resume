@@ -523,6 +523,10 @@ footer {
     display: block;
   }
 
+  footer {
+    margin-top: 100rem;
+  }
+
   
   
 }
@@ -582,7 +586,9 @@ footer {
     grid-template-columns: 1fr;
   }
 
-
+  footer {
+    margin-top: 100rem;
+  }
  
  
   
