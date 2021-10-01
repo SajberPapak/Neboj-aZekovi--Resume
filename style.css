@@ -420,7 +420,12 @@ header h4 {
   margin-bottom: 1rem;
 }
 
-
+footer {
+  margin-top: 50rem;
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+}
 
 
 /* MEDIA */
